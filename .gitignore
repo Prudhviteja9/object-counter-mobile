@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+*.pth
+*.tflite
+*.onnx
+
+# Output image folders
+data/output/
