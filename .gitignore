@@ -1,17 +1,53 @@
-# Ignore virtual environments
+# Virtual environments
 venv/
-ENV/
 env/
+ENV/
+.venv
 
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Model weights
-*.pt
-*.pth
-*.tflite
-*.onnx
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
 
-# Output image folders
+# Project specific
 data/output/
+yolov8n.pt
+*.tflite
+models/*.tflite
+*.mp4
+*.mov
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+Thumbs.db
+.DS_Store
